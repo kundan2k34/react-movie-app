@@ -1,0 +1,93 @@
+.myFooter {
+  background: radial-gradient(circle at top, #1c1c22, #0f0f12);
+  padding: 30px 20px 25px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.topGlow {
+  width: 140px;
+  height: 4px;
+  margin: 0 auto 25px;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #ff55a5, #ff5860);
+  box-shadow: 0 0 20px rgba(255, 88, 96, 0.6);
+}
+
+.iconBox {
+  font-size: 32px;
+  color: #ff55a5;
+  margin-bottom: 10px;
+  animation: float 2.5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.nameText {
+  font-size: 30px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #ff55a5, #ff5860);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 5px;
+}
+
+.status {
+  font-size: 14px;
+  color: #00ffb3;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.socialIcons a {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-size: 20px;
+
+  transition: 0.3s ease;
+}
+
+.socialIcons a:hover {
+  background: linear-gradient(90deg, #ff55a5, #ff5860);
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 10px 25px rgba(255, 88, 96, 0.4);
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 25px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+}
