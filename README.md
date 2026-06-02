@@ -1,4 +1,4 @@
-````md
+
 # 🎬 React Movie App
 
 A fully responsive and modern movie discovery web application built using React.js and TMDB API.  
@@ -55,13 +55,10 @@ Designed and developed as a frontend portfolio project to strengthen React.js co
 
 Clone the repository:
 
-```bash
+
 git clone https://github.com/your-github-kundan2k34/react-movie-app.git
 ````
 
-Move to the project folder:
-
-```bash
 cd react-movie-app
 ```
 
