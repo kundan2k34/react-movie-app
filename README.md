@@ -57,7 +57,7 @@ Clone the repository:
 
 
 git clone https://github.com/your-github-kundan2k34/react-movie-app.git
-````
+```
 
 cd react-movie-app
 ```
@@ -74,7 +74,7 @@ Start the development server:
 npm start
 ```
 
----
+---bash
 
 # 🔑 Environment Variables
 
@@ -84,7 +84,7 @@ Create a `.env` file in the root directory and add:
 REACT_APP_NOT_SECRET_CODE=your_tmdb_api_key
 ```
 
----
+---bash
 
 # 📂 Project Structure
 
